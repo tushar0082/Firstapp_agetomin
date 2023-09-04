@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    android:background="@color/bgcolor"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/textcolor"
+        android:textSize="25sp"
+        android:text="CALCULATE YOUR"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:background="@color/textcolor"
+        android:text="AGE"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/textcolor"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="In Minutes"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btncolor"
+        android:text="Select DOB" />
+    <TextView
+        android:id="@+id/datetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/textcolor"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="14/09/2021"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Selected Date"
+        />
+    <TextView
+        android:id="@+id/agemin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/textcolor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="1400000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:textColor="@color/light"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Minutes"
+        />
+
+</LinearLayout>
