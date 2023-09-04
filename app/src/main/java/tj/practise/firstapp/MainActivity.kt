@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                 val diff=currentdate-selecteddateinmin
 
                 agemin?.text = diff.toString()
-                //hello
+                //hello12
 
 
 
